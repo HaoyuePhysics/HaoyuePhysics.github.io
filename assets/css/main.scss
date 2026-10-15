@@ -39,3 +39,39 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+/* Personal site adjustments. Keep all template imports above intact. */
+
+/* Hide the large gray template footer and remove its reserved bottom space. */
+.page__footer {
+  display: none !important;
+}
+
+body {
+  padding-bottom: 2rem !important;
+}
+
+/* Display institutional names in full rather than clipping them. */
+.sidebar .author__urls li,
+.sidebar .author__urls a {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  overflow: visible;
+  text-overflow: clip;
+}
+
+/* Preserve the uploaded portrait; only adjust its display crop. */
+.author__avatar img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+/* Keep section headings clear of the fixed navigation bar. */
+.page__content h2,
+.page__content h3 {
+  scroll-margin-top: 6rem;
+}
+
+.page__content p {
+  max-width: 72ch;
+}
