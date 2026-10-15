@@ -21,14 +21,14 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "portrait_ALS.png"
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "PhD Researcher in Experimental Physics"
+  location         : "Berkeley, California"
+  employer         : "UC Berkeley / Lawrence Berkeley National Laboratory / Advaned Light Source"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "haoyuejiang@berkeley.edu / haoyuejiang@lbl.gov" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
