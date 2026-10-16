@@ -11,8 +11,8 @@ locale                   : "en-US"
 title                    : "Haoyue Jiang"
 title_separator          : "-"
 name                     : &name "Haoyue Jiang"
-description              : &description "Haoyue Jiang: photoemission spectroscopy, ultrafast optics, quantum materials, and scientific instrumentation."
-url                      : "https://haoyuephysics.github.io"
+description              : &description "Haoyue Jiang: optical and spectroscopic instrumentation, experimental software, and quantum-materials research at UC Berkeley and Berkeley Lab."
+url                      : "https://haoyuejiang.com"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "HaoyuePhysics/HaoyuePhysics.github.io"
 
@@ -24,7 +24,7 @@ author:
   avatar           : "portrait_ALS.png"
   name             : "Haoyue Jiang"
   pronouns         : # example: "she/her"  
-  bio              : "PhD Researcher in Experimental Physics"
+  bio              : "PhD Student in Applied Science and Technology"
   location         : "Berkeley, California"
   employer         : "UC Berkeley / Lawrence Berkeley National Laboratory"
   uri              : # URL
@@ -157,8 +157,6 @@ include:
   - _pages
   - files
 exclude:
-  # Template CV contains fictional education. Remove this exclusion after replacing it.
-  - _pages/cv.md
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache

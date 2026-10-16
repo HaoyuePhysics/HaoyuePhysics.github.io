@@ -1,0 +1,8 @@
+<aside class="profile" aria-label="Researcher profile">
+<div class="portrait-wrap"><img class="portrait" src="{{ '/images/' | append: site.author.avatar | relative_url }}" alt="Portrait of {{ site.author.name | escape }}" width="184" height="184" decoding="async" onerror="this.parentElement.style.display='none'"></div>
+<div class="profile-text"><h2>{{ site.author.name | escape }}</h2>
+<p class="profile-role">PhD Student<br>Applied Science and Technology</p>
+<p>UC Berkeley<br>Lawrence Berkeley<br class="desktop-break"> National Laboratory</p>
+<p class="profile-location">Berkeley, California</p>
+<div class="profile-links"><a href="mailto:{{ site.author.email }}">Email</a><a href="{{ site.author.googlescholar }}">Google Scholar</a><a href="{{ site.author.orcid }}">ORCID</a><a href="https://github.com/{{ site.author.github }}">GitHub</a></div>
+</div></aside>

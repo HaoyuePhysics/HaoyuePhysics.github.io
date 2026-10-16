@@ -1,36 +1,57 @@
 ---
-layout: archive
-title: "Publications"
+layout: personal-site
+title: Publications
 permalink: /publications/
-author_profile: true
+description: Peer-reviewed articles and technical report by Haoyue Jiang.
+nav_section: publications
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
-{% include base_path %}
-
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
-
-
-
+<header class="page-intro"><p class="eyebrow">Publications</p><h1>Articles &amp; technical report</h1></header><p><a href="https://scholar.google.com/citations?user=pUhXGroAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0000-0001-9104-7354">ORCID</a></p>
+<h2>Peer-reviewed articles</h2>
+<p class="cv-note">† Equal contribution.</p>
+<ol class="cv-publications" reversed="">
+<li id="article-8">
+<p><a href="https://doi.org/10.1038/s41467-026-70063-5"><strong>Discovery of van Hove singularities: electronic fingerprints of 3Q magnetic order in a van der Waals quantum magnet</strong></a><br/>
+    H. L. Luo, J. Rodriguez, D. Dutta, M. Huber, <strong>H. Jiang</strong>, L. Moreschini, C. Xu, et al.<br/>
+<em>Nature Communications</em> <strong>17</strong>, 3610 (2026).</p>
+</li>
+<li id="article-7">
+<p><a href="https://doi.org/10.1021/acs.nanolett.5c05292"><strong>Spin-Valley Locking in 2H-TaS₂ and Its Co-Intercalated Counterpart: Roles of Surface Domains and Co Intercalation</strong></a><br/>
+    H. L. Luo, J. Rodriguez, M. Huber, <strong>H. Jiang</strong>, L. Moreschini, P. T. Madathil, C. Xu, et al.<br/>
+<em>Nano Letters</em> <strong>26</strong>, 1011–1018 (2026).</p>
+</li>
+<li id="article-6">
+<p><a href="https://doi.org/10.3390/biology15010068"><strong>Watching Alkaline Phosphatase Catalysis Through Its Vibrational Fingerprint</strong></a><br/>
+    M. Tamagnini<sup>†</sup>, <strong>H. Jiang</strong><sup>†</sup>, L. Klivansky, C. Bustamante, and A. Lanzara.<br/>
+<em>Biology</em> <strong>15</strong>, 68 (2026).</p>
+</li>
+<li id="article-5">
+<p><a href="https://doi.org/10.1103/PhysRevMaterials.9.L032001"><strong>Synthesis and electronic characterization of Nd₂₋ₓSrₓNiO₄ thin films (0 ≤ x ≤ 1.4)</strong></a><br/>
+    N. K. Taylor, D. F. Segedin, A. B. Turkiewicz, Y. Zhang, S. T. Doyle, G. A. Pan, <strong>H. Jiang</strong>, et al.<br/>
+<em>Physical Review Materials</em> <strong>9</strong>, L032001 (2025).</p>
+</li>
+<li id="article-4">
+<p><a href="https://doi.org/10.1103/214w-j3yc"><strong>Near-field infrared nanoscopy of bilayered, nanostructured, and anisotropic media</strong></a><br/>
+    P. McArdle, <strong>H. Jiang</strong>, D. J. Lahneman, U. Kazianga, J. Chen, A. Biswas, and M. M. Qazilbash.<br/>
+<em>Physical Review B</em> <strong>111</strong>, 245427 (2025).</p>
+</li>
+<li id="article-3">
+<p><a href="https://doi.org/10.1016/j.cap.2022.12.006"><strong>Electronic and optical properties of strain-locked metallic Ti₂O₃ films</strong></a><br/>
+    D. J. Lahneman, H. Kim, <strong>H. Jiang</strong>, S. A. Mathews, E. Lock, J. Prestigiacomo, M. M. Qazilbash, C. Rohde, and A. Piqué.<br/>
+<em>Current Applied Physics</em> <strong>47</strong>, 9–14 (2023).</p>
+</li>
+<li id="article-2">
+<p><a href="https://doi.org/10.1038/s41535-022-00479-x"><strong>Insulator-to-metal transition in ultrathin rutile VO₂/TiO₂(001)</strong></a><br/>
+    D. J. Lahneman, T. Slusar, D. B. Beringer, <strong>H. Jiang</strong>, C.-Y. Kim, H.-T. Kim, and M. M. Qazilbash.<br/>
+<em>npj Quantum Materials</em> <strong>7</strong>, 72 (2022).</p>
+</li>
+<li id="article-1">
+<p><a href="https://doi.org/10.1063/1.4979503"><strong>Piezoelectricity of green carp scales</strong></a><br/>
+<strong>H. Jiang</strong>, F. Yen, C. W. Huang, R. B. Mei, and L. Chen.<br/>
+<em>AIP Advances</em> <strong>7</strong>, 045215 (2017).</p>
+</li>
+</ol>
+<h2 id="technical-report">Technical report</h2>
+<p>P. McArdle, D. J. Lahneman, <strong>H. Jiang</strong>, and M. M. Qazilbash.<br/>
+<a href="https://www.altair.com/resource/near-field-infrared-spectroscopy-simulations-using-altair-feko"><strong>Near-field infrared spectroscopy simulations using Altair FEKO.</strong></a><br/>
+Altair HyperWorks white paper (2021).</p>

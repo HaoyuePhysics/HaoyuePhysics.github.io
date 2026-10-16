@@ -1,0 +1,8 @@
+<a class="skip-link" href="#main-content">Skip to content</a>
+<header class="site-header"><div class="header-inner">
+<a class="site-name" href="{{ '/' | relative_url }}">{{ site.name | escape }}</a>
+<nav class="main-nav" aria-label="Main navigation">
+{% for item in site.data.navigation.main %}
+<a href="{{ item.url | relative_url }}"{% if page.nav_section == item.section %} aria-current="page"{% endif %}>{{ item.title | escape }}</a>
+{% endfor %}
+</nav></div></header>

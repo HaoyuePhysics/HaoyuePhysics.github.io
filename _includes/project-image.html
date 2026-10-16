@@ -1,0 +1,7 @@
+{% assign project_image = site.data.project_images[include.key] %}
+{% if project_image.src and project_image.src != "" %}
+<figure class="project-figure">
+  <img src="{{ project_image.src | relative_url }}" alt="{{ project_image.alt | escape }}" loading="lazy" decoding="async">
+  {% if project_image.caption and project_image.caption != "" %}<figcaption>{{ project_image.caption | escape }}</figcaption>{% endif %}
+</figure>
+{% endif %}

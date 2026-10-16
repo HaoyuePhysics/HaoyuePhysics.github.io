@@ -1,0 +1,31 @@
+# Add only approved public images. Empty src values produce no image or empty box.
+# Use /images/research/your-file.png after uploading the file to that path.
+# Diagrams/spectra are displayed without cropping; keep axes and legends in the image.
+harmony_overview:
+  src: ""
+  alt: ""
+  caption: ""
+harmony_optics:
+  src: ""
+  alt: ""
+  caption: ""
+harmony_analysis:
+  src: ""
+  alt: ""
+  caption: ""
+fti_validation:
+  src: ""
+  alt: ""
+  caption: ""
+cuprates:
+  src: ""
+  alt: ""
+  caption: ""
+nearfield:
+  src: ""
+  alt: ""
+  caption: ""
+devices:
+  src: ""
+  alt: ""
+  caption: ""

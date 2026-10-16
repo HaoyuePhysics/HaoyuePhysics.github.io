@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ page.title | escape }} | {{ site.name | escape }}</title>
+<meta name="description" content="{{ page.description | default: site.description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<meta property="og:type" content="website">
+<meta property="og:title" content="{{ page.title | escape }} | {{ site.name | escape }}">
+<meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:image" content="{{ '/images/' | append: site.author.avatar | absolute_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/personal-site.css' | relative_url }}">
+</head>
+<body>
+{% include personal-header.html %}
+<div class="site-shell">
+{% include personal-profile.html %}
+<main id="main-content" class="page-body" tabindex="-1">{{ content }}</main>
+</div>
+</body>
+</html>

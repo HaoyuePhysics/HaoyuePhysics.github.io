@@ -1,11 +1,14 @@
-# Homepage navigation. Each anchor matches a heading in _pages/about.md.
-# Unfinished sections remain in the repository, but not in the main menu.
+# Main navigation. The Research tab also covers individual project pages.
 main:
   - title: "About"
     url: /
+    section: about
   - title: "Research"
-    url: /#research
+    url: /research/
+    section: research
   - title: "Publications"
-    url: /#publications
-  - title: "Contact"
-    url: /#contact
+    url: /publications/
+    section: publications
+  - title: "CV"
+    url: /cv/
+    section: cv
